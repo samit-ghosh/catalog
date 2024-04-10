@@ -349,7 +349,7 @@ spec:
         - /manager
         - --private-registry=
         name: manager
-        image: gcr.io/config-management-release/config-management-operator:20220617195442-op
+        image: gcr.io/config-management-release/config-management-operator:v1.17.0-105-gccf4ea13
         resources:
           requests:
             cpu: 100m
