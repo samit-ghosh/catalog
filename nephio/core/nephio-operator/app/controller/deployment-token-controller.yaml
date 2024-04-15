@@ -75,7 +75,7 @@ spec:
           value: gitea
         - name: ENABLE_TOKENS
           value: "true"
-        image: nephio/nephio-operator:latest
+        image: nephio/nephio-operator:ubuntu
         livenessProbe:
           httpGet:
             path: /healthz

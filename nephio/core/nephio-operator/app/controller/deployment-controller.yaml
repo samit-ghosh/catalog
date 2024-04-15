@@ -87,7 +87,7 @@ spec:
           value: "true"
         - name: CLIENT_PROXY_ADDRESS
           value: resource-backend-controller-grpc-svc.backend-system.svc.cluster.local:9999
-        image: nephio/nephio-operator:latest
+        image: nephio/nephio-operator:ubuntu
         livenessProbe:
           httpGet:
             path: /healthz
