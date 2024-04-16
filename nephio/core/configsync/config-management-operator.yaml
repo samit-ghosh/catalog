@@ -349,7 +349,7 @@ spec:
         - /manager
         - --private-registry=
         name: manager
-        image: netxadmin/configsync:latest
+        image: netxadmin/configsync:arm64
         resources:
           requests:
             cpu: 100m
