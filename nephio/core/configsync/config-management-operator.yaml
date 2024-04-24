@@ -349,7 +349,7 @@ spec:
         - /manager
         - --private-registry=
         name: manager
-        image: config-management-release/config-management-operator:v1.17.0-105-gccf4ea13
+        image: registry/git-sync:latest__linux_arm64
         resources:
           requests:
             cpu: 100m
