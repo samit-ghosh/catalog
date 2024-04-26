@@ -346,9 +346,9 @@ spec:
     spec:
       containers:
       - command:
-        - /reconciler-manager
+        - /manager
         - --private-registry=
-        name: manager
+        name: reconciler-manager
         image: config-management-release/config-management-operator:v1.17.0-105-gccf4ea13
         resources:
           requests:
