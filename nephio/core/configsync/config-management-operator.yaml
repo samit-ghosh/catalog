@@ -348,8 +348,8 @@ spec:
       - command:
         - /manager
         - --private-registry=
-        name: reconciler-manager
-        image: config-management-release/config-management-operator:v1.17.0-105-gccf4ea13
+        name: manager
+        image: gcr.io/config-management-release/config-management-operator:20220617195442-op
         resources:
           requests:
             cpu: 100m
